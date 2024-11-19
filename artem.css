@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	
+    background-image: url('img/fondo3.png');
+    background-attachment: fixed;
+}
+
+
+h2 {
+	font-size: 2.2rem; 
+	text-align: center;
+	text-transform: uppercase; 
+	font-weight: 500; 
+	padding-bottom: 50px; 
+	font-family: 'Share Tech';
+	color: #ffffff;
+}
+
+h3 {
+	font-size: 1.9rem;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	font-weight: 400;
+	font-family: 'Share Tech';
+	color: #828282;
+}
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7em; 
+	color: #e0e0e0;
+}
+
+a {
+	text-decoration: none;
+} 
+
+
+.container {
+	margin: auto; 
+	max-width: 1300px; 
+	overflow: auto;
+	padding: 0 20px; 
+}
+
+.large {
+	font-size: 20px;
+}
+
+.texto-contacto{
+	font-size: 16px;
+}
+
+.medium{
+	font-size: 19px;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 15px;
+	padding: 15px 40px; 
+	letter-spacing: 1px; 
+	font-family: 'Share Tech';
+}
+
+.btn-outline {
+	background: transparent;
+	border: 1px solid #fff; 
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+    transition: all 0.3s ease;
+}
+
+.btn-outline:hover { 
+	background: #fcd349; 
+	color: #828282;
+}
+
+#navbar {
+	overflow: auto; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#navbar a {
+	color: #000; 
+}
+
+#navbar .logo {
+	float: left; 
+	padding-top: 12px;
+}
+
+#navbar img {
+	height: 80px;
+}
+
+#navbar ul {
+	list-style: none; 
+	float: right; 
+
+}
+
+#navbar ul li {
+	float: left; 
+}
+
+#navbar ul li a { 
+	display: block;
+	padding: 20px;
+	text-align: center;
+	font-size: 26px;
+	font-family: 'Share Tech';
+	color: #828282;
+;
+
+
+}
+
+
+#showcase {
+ 	background-image: url("img/fondo2.png");
+ 	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+	height: 550px; 
+	text-align: center;
+	padding: 100px;
+
+}
+#showcase .btn {
+	margin-top: 180px;  
+}
+
+#projects {
+	padding: 80px 0;
+}
+
+.projects-row {
+	display: flex;
+
+}
+
+.projects-row img {
+	width: 100%; 
+    object-fit: cover;
+    box-shadow: 0 3px 10px #ffd70026;
+    transition: all 0.3s ease;
+}
+.projects-row img:hover {
+    box-shadow: 0 0px 15px #f1cf08ad;
+    transform: scale(1.02);
+}
+
+#about {
+	padding: 80px 0;
+	background: #000;
+}
+
+.about-row {
+	display: flex;
+}
+
+.about-row-experience,
+.about-row-me {
+	width: 50%;
+	padding-left: 50px;
+}
+
+#contact {
+	padding: 80px 0;
+}
+
+.contact-row {
+	display: flex;
+}
+.contact-row-icon {
+	width: 33%;
+	text-align: center;
+}
+
+.contact-row-icon img {
+	height: 60px;
+}
+
+#mainfooter {
+	background: #000;
+	text-align: center;
+	padding: 30px;
+}
+
+
+a {
+    color: #ffd700;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #fff7cc;
+    text-decoration: underline;
+}
+
+#segredo {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#segredo:hover {
+    color: #ffe134;
+    text-decoration: underline;
+}
